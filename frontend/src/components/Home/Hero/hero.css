@@ -1,0 +1,31 @@
+.hero {
+    border-bottom: 1px solid #dfdfdf;
+    padding: 40px 20px;
+}
+
+.hero-text {
+    max-width: 600px;
+    margin: auto;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-btn {
+    background-color: #24323d;
+    color: white;
+    border: none;
+    margin-left: 0px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #8c9fa7;
+    color: white;
+}

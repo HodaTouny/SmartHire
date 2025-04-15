@@ -1,0 +1,25 @@
+.why-section {
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.feature-card {
+    cursor: pointer;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}

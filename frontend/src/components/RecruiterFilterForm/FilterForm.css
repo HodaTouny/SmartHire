@@ -1,0 +1,50 @@
+.filter-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+
+  }
+  
+  .filter-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-form label {
+    display: block;
+    margin: 10px 0;
+    font-weight: 500;
+  }
+  
+  .filter-form input,
+  .filter-form select {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid #24323dbd;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .btn-div{
+    justify-self: center;
+  }
+  .submit-btn {
+    background-color: #24323d;
+    color: white;
+    border: none;
+    margin-left: 0px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #8c9fa7;
+    color: white;
+  }
+  

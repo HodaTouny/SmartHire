@@ -1,0 +1,61 @@
+.navbar {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #24323d;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar-brand:hover {
+    color: #8c9fa7;
+}
+
+.btn {
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-left: 10px;
+}
+
+.login-btn {
+    background-color: #24323d;
+    color: white;
+    border: none;
+}
+
+.signup-btn {
+    background-color: #ffffff;
+    color: #24323d;
+    border: 2px solid #24323d;
+}
+
+.login-btn:hover, .signup-btn:hover, .logout-btn:hover {
+    background-color: #8c9fa7;
+    border-color: #8c9fa7;
+    color: white;
+}
+
+.logout-btn {
+    background-color: #24323d;
+    color: white;
+    border: none;
+}
+
+.link{
+    color: #24323d;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.link:hover{
+    color: #8c9fa7;
+}
