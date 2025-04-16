@@ -24,7 +24,7 @@ Recruiters often spend hours manually reviewing a large number of CVs. This proc
 - AI scoring using Gemini API based on job criteria  
 - Displays only the top 10% of candidates  
 - Google Drive integration to store shortlisted CVs  
-- Recruiter dashboard to view top-ranked candidates  
+- View top-ranked candidates  
 
 ---
 
