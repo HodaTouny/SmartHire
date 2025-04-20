@@ -13,7 +13,7 @@ const fs = require('fs');
 const saveEmailConfigHandler = async (req, res) => {
   try {
     const { email, type, host, username, password } = req.body;
-    if(checkEmailExists(email)){
+    if(!checkEmailExists(email)){
       return res.status(400).json({error: 'Email already exists' });
     }
     const config = await saveEmailConfig(email, type, host, username, password);

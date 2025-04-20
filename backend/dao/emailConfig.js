@@ -14,7 +14,10 @@ const saveEmailConfig = async (email, type = "IMAP", host="imap.gmail.com", user
 const checkEmailExists = async (email) => {
     try {
         const emailConfig = await EmailConfig.findOne({ email: email });
-        return emailConfig !== null;
+        if(emailConfig == null){
+            return false;
+        } 
+        return true;
     } catch (error) {
         console.error("Error checking email existence:", error);
         throw error;
